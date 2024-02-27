@@ -21,7 +21,7 @@ $linkNav=['home','about','contact'];
                 foreach ($nav as $key => $elem) {
                 ?>
                     <li class="m-3">
-                        <a href="{{ route($linkNav[$key])}}">
+                        <a class="text-decoration-none text-dark" href="{{ route($linkNav[$key])}}">
                             <?php
                             echo $elem;
                             ?>
@@ -35,7 +35,7 @@ $linkNav=['home','about','contact'];
         </header>
 
         <main>
-            <h1>
+            <h1 class="text-center">
                 About us
             </h1>
         </main>
